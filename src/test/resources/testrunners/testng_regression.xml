@@ -5,6 +5,8 @@
     <classes>
       <class name="com.qa.hubspot.testdata.LoginPageTest"/>
       <class name="com.qa.hubspot.testdata.HomePageTest"/>
+       <class name="com.qa.hubspot.testdata.ContactsTest"/>
+      
       
       
     </classes>
