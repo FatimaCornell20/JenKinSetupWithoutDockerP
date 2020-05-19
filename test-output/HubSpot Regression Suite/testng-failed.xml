@@ -3,15 +3,6 @@
 <suite name="Failed suite [HubSpot Regression Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Hubspot Functional Regression Test(failed)">
     <classes>
-      <class name="com.qa.hubspot.testdata.HomePageTest">
-        <methods>
-          <include name="verifyHomeHeaderTest"/>
-          <include name="setUp"/>
-          <include name="verifyHomePageTitleTest"/>
-          <include name="tearDown"/>
-          <include name="verifyLoggedInUserTest"/>
-        </methods>
-      </class> <!-- com.qa.hubspot.testdata.HomePageTest -->
       <class name="com.qa.hubspot.testdata.LoginPageTest">
         <methods>
           <include name="verifyLoginPageTitleTest"/>
@@ -21,6 +12,15 @@
           <include name="verifySignUpLinkTest"/>
         </methods>
       </class> <!-- com.qa.hubspot.testdata.LoginPageTest -->
+      <class name="com.qa.hubspot.testdata.HomePageTest">
+        <methods>
+          <include name="verifyHomeHeaderTest"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="tearDown"/>
+          <include name="verifyLoggedInUserTest"/>
+        </methods>
+      </class> <!-- com.qa.hubspot.testdata.HomePageTest -->
     </classes>
   </test> <!-- Hubspot Functional Regression Test(failed) -->
 </suite> <!-- Failed suite [HubSpot Regression Suite] -->
